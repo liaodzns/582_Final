@@ -11,7 +11,7 @@ DATA_FOLDER = os.path.join(PROJECT_FOLDER, "data")
 
 
 def load_split(split):
-    """Load one split ("train" or "test").
+    """Load one split ("train", "test1", or "test2").
 
     Returns cells, rna, protein, labels.
     labels is None for the test split.
